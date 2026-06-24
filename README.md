@@ -1,1 +1,3 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004521-blue)](https://doi.org/10.82901/nemar.on004521)
+
 Preprocessed data from Experiment 1 of Ester & Pytel "Changes in behavioral priority influence the accessibility of working memory content". Analytic scripts for this project can be found on OSF: https://osf.io/gtd5f/. Note that to analyze the BIDS data, you'll need to modify the analysis scripts to read in the BIDS .set files rather than the expected .mat files. See the OSF wiki for more information
