@@ -1,19 +1,32 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Changes in behavioral priority influence the accessibility of working memory content - Experiment 1",
+  "description": "This dataset contains preprocessed neuroimaging data from Experiment 1 investigating how changes in behavioral priority affect the accessibility of working memory content. The study examines the neural mechanisms underlying selective attention and working memory maintenance, with data suitable for analysis of cognitive control processes.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
     "Edward Ester": {},
     "Paige Pytel": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004521.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "working memory"
     },
+    {
+      "term": "behavioral priority"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "cognitive control"
+    },
+    {
+      "term": "EEG"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004521",
       "identifier_type": "URL",
@@ -28,48 +41,27 @@
       "identifier": "10.1101/2022.08.12.503778",
       "identifier_type": "DOI",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004521.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "11.5 GB (69 files)"
   ],
   "formats": [
     ".fdt",
     ".json",
     ".md",
     ".set",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "Preprocessed EEG data from Experiment 1 investigating how changes in behavioral priority affect the accessibility of working memory content. This dataset includes EEG recordings and associated analysis materials. Analytic scripts are available through the Open Science Framework (https://osf.io/gtd5f/) but require modification to read BIDS .set files instead of .mat files. See the OSF wiki for details.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "working memory"
-    },
-    {
-      "term": "working memory accessibility"
-    },
-    {
-      "term": "behavioral priority"
-    },
-    {
-      "term": "priority effects"
-    },
-    {
-      "term": "cognitive control"
-    },
-    {
-      "term": "attention"
-    },
-    {
-      "term": "BIDS"
-    }
-  ],
-  "source_hash": "cbcdb7f1d2cc11dc26cb8e14dd0c2dc908928a9d6a90e739ac4a964ba5b34ef9"
+  "source_hash": "4775332a9b1a38509a7c0f1de238e7029edac7716bc66529ebdbde416faf04ee"
 }
