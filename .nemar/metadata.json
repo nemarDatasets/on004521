@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Changes in behavioral priority influence the accessibility of working memory content - Experiment 1",
-  "description": "This dataset contains preprocessed neuroimaging data from Experiment 1 investigating how changes in behavioral priority affect the accessibility of working memory content. The study examines the neural mechanisms underlying selective attention and working memory maintenance, with data suitable for analysis of cognitive control processes.",
+  "description": "This dataset contains preprocessed EEG data from Experiment 1 of a study investigating how changes in behavioral priority influence the accessibility of information held in working memory. The data are formatted according to BIDS standards and are intended to support reanalysis of working memory encoding and retrieval dynamics using EEG-based decoding methods.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,29 +11,24 @@
   },
   "keywords": [
     {
-      "term": "working memory"
+      "term": "EEG"
+    },
+    {
+      "term": "Working Memory"
     },
     {
       "term": "behavioral priority"
     },
     {
+      "term": "cognitive neuroscience"
+    },
+    {
       "term": "attention"
-    },
-    {
-      "term": "cognitive control"
-    },
-    {
-      "term": "EEG"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004521",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004521",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -46,6 +41,11 @@
       "identifier": "10.18112/openneuro.ds004521.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004521",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
