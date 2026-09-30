@@ -2,7 +2,7 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Changes in behavioral priority influence the accessibility of working memory content - Experiment 1",
-  "description": "This dataset contains preprocessed EEG data from Experiment 1 of a study investigating how changes in behavioral priority influence the accessibility of information held in working memory. The data are formatted according to BIDS standards and are intended to support reanalysis of working memory encoding and retrieval dynamics using EEG-based decoding methods.",
+  "description": "Preprocessed EEG data from Experiment 1 of a study examining how changes in behavioral priority affect the accessibility of working memory content. The dataset is provided in BIDS format as EEGLAB .set files. Analysis scripts for the project are hosted on OSF.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,16 +14,16 @@
       "term": "EEG"
     },
     {
-      "term": "Working Memory"
+      "term": "working memory"
     },
     {
       "term": "behavioral priority"
     },
     {
-      "term": "cognitive neuroscience"
+      "term": "attention"
     },
     {
-      "term": "attention"
+      "term": "preprocessed data"
     }
   ],
   "related_identifiers": [
@@ -53,7 +53,7 @@
     "eeg"
   ],
   "sizes": [
-    "11.5 GB (69 files)"
+    "10.68 GB (69 files)"
   ],
   "formats": [
     ".fdt",
